@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Receiver.dir/main.cpp.o  -o Receiver 
