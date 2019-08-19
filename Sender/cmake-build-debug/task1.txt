@@ -1,0 +1,23 @@
+-----TCP-----
+1.Server sends a series of numbers starting at one and increasing by one until 
+it reaches the number sent by the client.
+2.When the Cient send the int 0, Server sends back the string: try_again.
+3.When the Client sends a negative number, Server sends back the string: wrong.
+-----UDP-----
+1.Server outputs: server is running, waiting for your client.
+2.Server outputs: sol:QSPHSBN1.
+3.Client send four last digits of ID (in my case 8393), and the Server send back    
+the last two digits (93).
+4.After the client sent the four digits and received back the last two, Server sends 
+the string: finished.
+5.The minimal number of sockets that need to used by the udp Server is one.
+datagram sockets that use udp protocol are connectionless sockets that can connect
+to multiple endpoints and receive/send to multiple clients using one socket.    
+6.For the same reasons mentioned in answer no. 5, the client side only need one socket
+to send and receive to/from the udp server.
+7.When using TCP protocol client side would still work with just one socket that connects
+the client and the server, and will handle the data passed between them.
+8.When using TCP protocol on the Server side, the server need at least 2 sockets or more,
+depending on the number of clients and whats the relationship is with each client.
+In TCP you should create a new socket for each new client that connects to the server, 
+and a "listener" sockets that listens to new connections to the server by using the
