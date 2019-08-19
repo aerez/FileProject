@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aerez/CLionProjects/FileProject/Sender/main.cpp
+/home/aerez/CLionProjects/Files/Sender/main.cpp
 iostream
 -
 sys/types.h

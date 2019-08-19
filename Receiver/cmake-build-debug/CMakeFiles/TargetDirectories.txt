@@ -1,3 +1,3 @@
-/home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug/CMakeFiles/Receiver.dir
-/home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aerez/CLionProjects/Files/Receiver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aerez/CLionProjects/Files/Receiver/cmake-build-debug/CMakeFiles/Receiver.dir
+/home/aerez/CLionProjects/Files/Receiver/cmake-build-debug/CMakeFiles/edit_cache.dir

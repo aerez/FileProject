@@ -59,10 +59,10 @@ RM = /home/aerez/Downloads/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aerez/CLionProjects/FileProject/Receiver
+CMAKE_SOURCE_DIR = /home/aerez/CLionProjects/Files/Receiver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug
+CMAKE_BINARY_DIR = /home/aerez/CLionProjects/Files/Receiver/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Receiver.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/aerez/CLionProjects/FileProject/Receiver/cmake-build-de
 CMakeFiles/Receiver.dir/all:
 	$(MAKE) -f CMakeFiles/Receiver.dir/build.make CMakeFiles/Receiver.dir/depend
 	$(MAKE) -f CMakeFiles/Receiver.dir/build.make CMakeFiles/Receiver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Receiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aerez/CLionProjects/Files/Receiver/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Receiver"
 .PHONY : CMakeFiles/Receiver.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/Receiver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Receiver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aerez/CLionProjects/Files/Receiver/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Receiver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aerez/CLionProjects/FileProject/Receiver/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aerez/CLionProjects/Files/Receiver/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Receiver.dir/rule
 
 # Convenience name for target.
